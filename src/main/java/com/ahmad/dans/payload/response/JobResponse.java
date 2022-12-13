@@ -2,7 +2,7 @@ package com.ahmad.dans.payload.response;
 
 import com.fasterxml.jackson.annotation.*;
 
-import javax.annotation.processing.Generated;
+import javax.annotation.Generated;
 import java.text.ParseException;
 import java.util.Date;
 import java.util.HashMap;

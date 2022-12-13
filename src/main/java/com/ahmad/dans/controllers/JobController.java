@@ -3,8 +3,6 @@ package com.ahmad.dans.controllers;
 import com.ahmad.dans.payload.response.JobResponse;
 import org.springframework.core.ParameterizedTypeReference;
 import org.springframework.http.HttpMethod;
-import org.springframework.http.HttpStatus;
-import org.springframework.http.HttpStatusCode;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.validation.annotation.Validated;
@@ -13,7 +11,6 @@ import org.springframework.web.client.HttpClientErrorException;
 import org.springframework.web.client.HttpServerErrorException;
 import org.springframework.web.client.RestTemplate;
 
-import javax.swing.text.html.parser.Entity;
 import javax.validation.constraints.NotBlank;
 import java.util.List;
 
