@@ -1,0 +1,12 @@
+1. Open project from Github : https://github.com/bangone1311/Springboot_Test_Project.git
+2. Modify Connection, UserName and Password For SQL Server in application.properties
+3. Create Database On SQL Server : springbootdb
+4. Run Command On Project Folder : mvn spring-boot:run (system will create table with initial data)
+5. Login using http://localhost:8080/api/auth/login
+	{
+    		"username": "admin",
+    		"password": "P@ssw0rd",
+	}
+	It will return Bearer token as a response
+6. Get Job List API using http://localhost:8080/api/job/list (use the bearer token above as authorization)
+7. http://localhost:8080/api/job/detail/32bf67e5-4971-47ce-985c-44b6b3860cdbs (use the bearer token above as authorization)
